@@ -1,0 +1,34 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ */
+
+package com.mycompany.subtractingnumbers;
+
+/**
+ *
+ * @author oscar mkhabela
+ */
+import java.util.Scanner;
+
+
+public class SubtractingNumbers {
+ //creating the main method
+    
+    public static void main(String[] args) {
+        
+        Scanner input=new Scanner(System.in);
+        //creating the printing method
+        System.out.println("Enter first number");
+        int num1=input.nextInt();
+        
+        System.out.println("Enter second number");
+        int num2=input.nextInt();
+        
+        int difference=num1-num2;
+        System.out.println("The difference of"+num1+"and"+num2+"is"+difference);
+    
+        
+        
+        
+    }
+}
